@@ -53,8 +53,8 @@ a {
   font-weight: 500;
   margin-top: 30px;
   font-size: 16px;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
 }
 
 .button:hover {
@@ -117,6 +117,13 @@ a {
   letter-spacing: 0.05em;
   font-family: Raleway;
   color: white;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+.header-item-links:hover {
+  font-size: 16px;
+  color: #d4c17f;
 }
 
 .header-section {
@@ -182,6 +189,12 @@ a {
   text-align: center;
   font-family: Raleway;
   color: #ffffff;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+.hero-text-first-text:hover {
+  color: #d4c17f;
 }
 
 .hero-text-second {
@@ -204,6 +217,12 @@ a {
   text-align: center;
   font-family: Raleway;
   color: #ffffff;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+.hero-text-second-text:hover {
+  color: #d4c17f;
 }
 
 .info {
@@ -250,6 +269,14 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 220px;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+.info-block-image:hover {
+  background-color: #3a4450;
+  border-radius: 50px;
 }
 
 .info-block-text {
@@ -327,6 +354,12 @@ a {
 
 .info-features-block-image {
   position: relative;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+.info-features-block-image:hover {
+  border: 1px solid #d4c17f;
 }
 
 .info-features-block-text {
@@ -435,6 +468,14 @@ a {
   line-height: 27px;
   text-align: center;
   color: #ffffff;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+.feedback-button-button:hover {
+  background-color: #fff;
+  color: #d4c17f;
+  border-radius: 5px;
 }
 
 .geo {
@@ -609,6 +650,12 @@ a {
   line-height: 16px;
   letter-spacing: 0.05em;
   color: #ffffff;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+.footer-two-links:hover {
+  color: #d4c17f;
 }
 
 .footer-three {
@@ -630,6 +677,12 @@ a {
   line-height: 16px;
   letter-spacing: 0.05em;
   color: #ffffff;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+.footer-three-links:hover {
+  color: #d4c17f;
 }
 
 .footer-four {

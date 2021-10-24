@@ -34,7 +34,7 @@ a {
 }
 
 @mixin slowTrans {
-  transition: all 0.3s ease;
+  transition: all 0.6s ease;
 }
 
 .button {
@@ -90,6 +90,11 @@ a {
       letter-spacing: 0.05em;
       font-family: Raleway;
       color: rgb(255, 255, 255);
+      @include slowTrans();
+      &:hover {
+        font-size: 16px;
+        color: #d4c17f;
+      }
     }
   }
   &-section {
@@ -132,6 +137,10 @@ a {
         text-align: center;
         font-family: Raleway;
         color: #ffffff;
+        @include slowTrans();
+        &:hover {
+          color: #d4c17f;
+        }
       }
     }
     &-second {
@@ -146,6 +155,10 @@ a {
         text-align: center;
         font-family: Raleway;
         color: #ffffff;
+        @include slowTrans();
+        &:hover {
+          color: #d4c17f;
+        }
       }
     }
   }
@@ -174,6 +187,12 @@ a {
       flex-direction: column;
       row-gap: 53px;
       align-items: center;
+      width: 220px;
+      @include slowTrans();
+      &:hover {
+        background-color: #3a4450;
+        border-radius: 50px;
+      }
     }
     &-text {
       width: 193px;
@@ -229,6 +248,10 @@ a {
       gap: 30px;
       &-image {
         position: relative;
+        @include slowTrans();
+        &:hover {
+          border: 1px solid #d4c17f;
+        }
       }
       &-text {
         font-family: Raleway;
@@ -314,6 +337,12 @@ a {
       line-height: 27px;
       text-align: center;
       color: #ffffff;
+      @include slowTrans();
+      &:hover {
+        background-color: #fff;
+        color: #d4c17f;
+        border-radius: 5px;
+      }
     }
   }
 }
@@ -438,6 +467,10 @@ a {
       line-height: 16px;
       letter-spacing: 0.05em;
       color: #ffffff;
+      @include slowTrans();
+      &:hover {
+        color: #d4c17f;
+      }
     }
   }
   &-three {
@@ -452,6 +485,10 @@ a {
       line-height: 16px;
       letter-spacing: 0.05em;
       color: #ffffff;
+      @include slowTrans();
+      &:hover {
+        color: #d4c17f;
+      }
     }
   }
   &-four {
