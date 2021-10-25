@@ -25,4 +25,359 @@ input {
 a {
   color: #fff;
 }
+
+@media (max-width: 1550px) {
+  .header {
+    padding: 30px 205px;
+  }
+  .info-block-desc {
+    display: none;
+  }
+  .geo-video {
+    position: relative;
+    padding-top: 60px;
+    z-index: 1;
+  }
+  .geo-video-icon {
+    z-index: 1;
+  }
+  .geo-video-desc {
+    display: none;
+  }
+}
+
+@media (max-width: 1210px) {
+  .header {
+    padding: 30px 55px;
+  }
+  .header-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .info-features-desc {
+    display: none;
+  }
+  .info-features-block-image {
+    width: 350px;
+  }
+  .feedback-about-text {
+    width: 300px;
+  }
+  .feedback {
+    padding: 180px 205px;
+  }
+  .feedback-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-item-align: end;
+        align-self: end;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .geo-input-forms {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 600px;
+  }
+  .footer {
+    -webkit-column-gap: 90px;
+            column-gap: 90px;
+  }
+  .footer-three {
+    display: none;
+  }
+  .geo-map-iframe {
+    width: 800px;
+  }
+}
+
+@media (max-width: 920px) {
+  .info-block {
+    position: relative;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (auto)[2];
+        grid-template-columns: repeat(2, auto);
+    -ms-grid-rows: (auto)[2];
+        grid-template-rows: repeat(2, auto);
+    gap: 100px;
+  }
+  .info-features-desc {
+    display: none;
+  }
+  .geo {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    padding: 20px;
+  }
+  .geo-input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 50px;
+    text-align: center;
+  }
+  .geo-input-forms {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 30px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+  .geo-map-desc {
+    display: none;
+  }
+  .geo-video {
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+  }
+}
+
+@media (max-width: 800px) {
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .header-item {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (auto)[2];
+        grid-template-columns: repeat(2, auto);
+    -ms-grid-rows: (auto)[2];
+        grid-template-rows: repeat(2, auto);
+  }
+  .hero {
+    padding: 30px;
+  }
+  .info-features-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 50px;
+  }
+  .geo-map-iframe {
+    width: 600px;
+  }
+  .geo-video {
+    position: relative;
+    width: 500px;
+  }
+  .geo-video-icon {
+    position: absolute;
+    top: 270px;
+    left: 200px;
+  }
+  .footer {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 50px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding: 15px;
+  }
+  .hero {
+    width: 100%;
+  }
+  .hero-text {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+  .hero-title {
+    font-size: 30px;
+  }
+  .hero-title {
+    width: 350px;
+    text-align: center;
+  }
+  .hero-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 30px;
+  }
+  .hero-text-first {
+    padding: 0;
+  }
+  .hero-text-second {
+    padding: 0;
+  }
+  .feedback {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    row-gap: 50px;
+    padding: 50px;
+  }
+  .feedback-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  .feedback-about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .geo-map {
+    width: 95%;
+  }
+  .geo-map-iframe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+        align-self: center;
+    width: 95%;
+  }
+  .info-block {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (auto)[2];
+        grid-template-columns: repeat(2, auto);
+    -ms-grid-rows: (auto)[2];
+        grid-template-rows: repeat(2, auto);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    row-gap: 50px;
+  }
+  .header-item {
+    row-gap: 20px;
+  }
+  .hero-title {
+    width: 310px;
+  }
+  .info-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 30px;
+  }
+  .info-features-block-image {
+    width: 310px;
+  }
+  .feedback {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 30px;
+  }
+  .feedback-about {
+    width: 310px;
+  }
+  .feedback-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  .geo-video {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 95%;
+  }
+  .geo-video-icon {
+    display: none;
+  }
+}
 /*# sourceMappingURL=media.css.map */

@@ -27,3 +27,249 @@ a {
 @mixin slowTrans {
   transition: all 0.3s ease;
 }
+
+@media (max-width: 1550px) {
+  .header {
+    padding: 30px 205px;
+  }
+  .info-block {
+    &-desc {
+      display: none;
+    }
+  }
+  .geo-video {
+    position: relative;
+    padding-top: 60px;
+    z-index: 1;
+    &-icon {
+      z-index: 1;
+    }
+    &-desc {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 1210px) {
+  .header {
+    padding: 30px 55px;
+    &-item {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  .info-features-desc {
+    display: none;
+  }
+  .info-features-block-image {
+    width: 350px;
+  }
+  .feedback-about-text {
+    width: 300px;
+  }
+  .feedback {
+    padding: 180px 205px;
+  }
+  .feedback-button {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: end;
+    justify-content: center;
+    height: max-content;
+  }
+  .geo-input-forms {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 600px;
+  }
+  .footer {
+    column-gap: 90px;
+    &-three {
+      display: none;
+    }
+  }
+
+  .geo-map-iframe {
+    width: 800px;
+  }
+}
+
+@media (max-width: 920px) {
+  .info-block {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 100px;
+  }
+  .info-features-desc {
+    display: none;
+  }
+  .geo {
+    height: max-content;
+    padding: 20px;
+    &-input {
+      display: flex;
+      flex-direction: column;
+      row-gap: 50px;
+      text-align: center;
+      &-forms {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        align-items: center;
+        width: max-content;
+      }
+    }
+    &-map-desc {
+      display: none;
+    }
+    &-video {
+      width: min-content;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-item {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+  }
+  .hero {
+    padding: 30px;
+  }
+  .info-features-block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+  }
+  .geo-map-iframe {
+    width: 600px;
+  }
+  .geo-video {
+    position: relative;
+    width: 500px;
+    &-icon {
+      position: absolute;
+      top: 270px;
+      left: 200px;
+    }
+  }
+  .footer {
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding: 15px;
+  }
+  .hero {
+    width: 100%;
+    &-text {
+      width: max-content;
+    }
+    &-title {
+      font-size: 30px;
+    }
+  }
+  .hero-title {
+    width: 350px;
+    text-align: center;
+  }
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    &-first {
+      padding: 0;
+    }
+    &-second {
+      padding: 0;
+    }
+  }
+  .feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+    padding: 50px;
+    &-button {
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+    }
+    &-about {
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+  }
+  .geo-map {
+    width: 95%;
+    &-iframe {
+      display: flex;
+      align-self: center;
+      width: 95%;
+    }
+  }
+  .info-block {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+    &-item {
+      row-gap: 20px;
+    }
+  }
+  .hero-title {
+    width: 310px;
+  }
+  .info-block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .info-features-block-image {
+    width: 310px;
+  }
+  .feedback {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    &-about {
+      width: 310px;
+    }
+    &-button {
+      display: flex;
+      align-self: center;
+    }
+  }
+  .geo-video {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    &-icon {
+      display: none;
+    }
+  }
+}

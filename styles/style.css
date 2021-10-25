@@ -146,7 +146,7 @@ a {
       -ms-flex-align: center;
           align-items: center;
   padding-top: 200px;
-  min-width: 567px;
+  width: 100%;
 }
 
 .hero-title {
